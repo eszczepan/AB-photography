@@ -81,10 +81,10 @@
         <h2>Gallery</h2>
       </header>
       <div class="gallery-photos">
-        <img class="gallery1 " src="img/photo1.jpg" alt="photo of attractive woman">
-        <img class="gallery2 " src="img/photo2.jpg" alt="photo of woman leaning on wall">
-        <img class="gallery3 " src="img/photo3.jpg" alt="close up photo of woman's face">
-        <img class="gallery4 " src="img/photo4.jpg" alt="photo of woman with blonde hair">
+        <img class="gallery1 " src="img/photo1.jpg" title="Abby Morgan" alt="photo of attractive woman" tabindex="0">
+        <img class="gallery2 " src="img/photo2.jpg" title="Thea Ruiz" alt="photo of woman leaning on wall" tabindex="0">
+        <img class="gallery3 " src="img/photo3.jpg" title="Lisa Brooks" alt="close up photo of woman's face" tabindex="0">
+        <img class="gallery4 " src="img/photo4.jpg" title="Nannie Rose" alt="photo of woman with blonde hair" tabindex="0">
       </div>
     </section>
     <section class="contact" id="contact">
@@ -107,6 +107,18 @@
         <li><a href="https://github.com/eszczepan"><img src="img/github.svg" alt="github-link"></a></li>
       </ul>
     </footer>
+    <div class="modal">
+      <div class="modalInner">
+        <button class="prev" aria-label="Previous Photo">&larr;</button>
+        <figure>
+          <img src="./img/photo1.jpg">
+          <figcaption>
+            <h2>Abby Morgan</h2>
+          </figcaption>
+        </figure>
+        <button class="next" aria-label="Next Photo">&rarr;</button>
+      </div>
+    </div>
   </main>
   <script src="app.js"></script>
 </body>
