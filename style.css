@@ -475,6 +475,17 @@ h5 {
   border: none;
   cursor: pointer;
   outline: none;
+  transition: all .3s ease
+}
+
+.prev:hover {
+  padding-right: 1.3rem;
+  transition: padding-right .3s ease;
+}
+
+.next:hover {
+  padding-left: 1.3rem;
+  transition: padding-left .3s ease;
 }
 
 .modal img {
