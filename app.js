@@ -1,3 +1,8 @@
+//PAGE LOADER
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader-wrapper");
+  loader.classList.add("hidden");
+});
 //BURGER
 const burger = document.querySelector(".burger");
 const nav = document.querySelector(".nav-links");
