@@ -61,6 +61,10 @@ ul {
   list-style: none;
 }
 
+.container {
+  display: none;
+}
+
 .flex {
   display: flex;
   flex-direction: column;

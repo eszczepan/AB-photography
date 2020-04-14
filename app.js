@@ -1,7 +1,9 @@
 //PAGE LOADER
 window.addEventListener("load", () => {
   const loader = document.querySelector(".loader-wrapper");
+  const container = document.querySelector(".container");
   loader.classList.add("hidden");
+  container.style.display = "block";
 });
 //BURGER
 const burger = document.querySelector(".burger");
